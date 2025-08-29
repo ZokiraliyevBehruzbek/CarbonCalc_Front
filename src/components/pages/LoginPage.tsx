@@ -4,7 +4,7 @@ import { Input } from '../Input';
 import { Button } from '../Button';
 import { useAuth } from '../../contexts/AuthContext';
 import { PageType } from '../../types';
-import { Leaf, LogIn } from 'lucide-react';
+import { Leaf, LogIn, Weight } from 'lucide-react';
 
 interface LoginPageProps {
   onNavigate: (page: PageType) => void;
@@ -75,7 +75,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ onNavigate }) => {
             type="submit" 
             disabled={!username || !password}
             loading={loading}
-            size="lg"
+            size="md"
             className="w-full mb-4"
           >
             <LogIn className="w-5 h-5 mr-2" />

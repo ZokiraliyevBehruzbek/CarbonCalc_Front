@@ -77,7 +77,7 @@ export const RegisterPage: React.FC<RegisterPageProps> = ({ onNavigate }) => {
             type="submit" 
             disabled={!username || !password}
             loading={loading}
-            size="lg"
+            size="md"
             className="w-full mb-4"
           >
             <UserPlus className="w-5 h-5 mr-2" />

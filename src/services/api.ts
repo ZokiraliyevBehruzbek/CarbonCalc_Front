@@ -1,6 +1,6 @@
 import { User, RegisterRequest, LoginRequest, CreateActivityRequest, Activity } from '../types';
 
-const API_BASE = 'http://localhost:8000'; // Update this to your Django API URL
+const API_BASE = 'https://carboncalc-api.onrender.com'; // Update this to your Django API URL
 
 // Cookie helper functions
 const setCookie = (name: string, value: string, days: number = 7) => {
